@@ -39,7 +39,7 @@ function App() {
 }
 
 function Modal() { // Component 만들기, 이름은 항상 대문자로 시작, return은 하나의 태그로 묶기
-  return(
+  return( // react element를 return함
     <div className='modal'>
       <h2>제목</h2>
       <p>날짜</p>
